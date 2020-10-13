@@ -8,21 +8,31 @@
   </head>
 
   <body>
-    <div id="left-header">
-      <ul>
-        <li><a href="default.asp">About</a></li>
-        <li><a href="news.asp">Store</a></li>
-        <li><a href="contact.asp">Gmail</a></li>
-        <li><a href="about.asp">Images</a></li>
-      </ul> 
+    <div class="header-container">
+      <div class="header-child" id="left-header">
+        <ul>
+          <li><a class="left-header-text" href="default.asp">About</a></li>
+          <li><a class="left-header-text" href="news.asp">Store</a></li>
+        </ul> 
+      </div>
+
+      <div class="header-child" id="right-header">
+        <ul>
+          <li><a class="right-header-text" href="contact.asp">Gmail</a></li>
+          <li><a class="right-header-text" href="about.asp">Images</a></li>
+          <li><a class="app-grid" href="about.asp" title="apps" aria-expanded="false" role="button"></a></li>
+        </ul> 
+      </div>
     </div>
     
-    <div id="logo">
-      <img src="images/googlelogo_color.png" alt="google" width="272" height="92">
-    </div>
-    
-    <div id="search-bar">
-      <input type="text" id="search" name="search">
+    <div class="main">
+      <div id="logo">
+        <img src="images/googlelogo_color.png" alt="google" width="272" height="92">
+      </div>
+      
+      <div id="search-bar">
+        <input type="text" id="search" name="search">
+      </div>
     </div>
   </body>
 
